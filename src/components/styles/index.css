@@ -1,0 +1,34 @@
+.container{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+/* MAIN CONTENT =========*/
+
+.main-container {
+    background-color: #cfb0d2;
+    padding: 4em;
+    flex: 1;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container h2{
+    margin-bottom: 2%;
+    font-size: 2.2em;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+
+}

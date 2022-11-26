@@ -1,0 +1,24 @@
+.text {
+    margin-bottom: 15%;
+    vertical-align: auto;
+    animation: slideContent 1.3s;
+
+}
+
+@keyframes slideContent {
+    from {
+        transform: translatey(-60px); 
+    }
+    to {
+        transform: translatey(0px);
+    }
+}
+
+.text p {
+    border: 5px rgb(171, 48, 228);
+    box-shadow:inset;
+    width: 80%;
+    font-size: 1.3em;
+    font: weight 300    ;
+    line-height: 2;
+}

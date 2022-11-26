@@ -1,0 +1,46 @@
+figure {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    animation: slideProfile 1.3s;
+}
+
+figure img{
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+    width: 300px;
+    border-radius: 150px;
+    margin-bottom: 3%;
+    border: 3px #c567f0 solid;
+    transition: 0.2s ease-in-out;
+}
+figure img:hover{
+    box-shadow: 8px 4px 4px #c567f0;
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+@keyframes slideProfile {
+    from {
+        transform: translatey(60px); 
+    }
+    to {
+        transform: translatey(0px);
+    }
+}
+
+@media (max-width: 700px) {
+    figure img {
+        width: 150px;
+    }
+}
